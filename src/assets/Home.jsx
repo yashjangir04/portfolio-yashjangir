@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div id='home'>
         {/* <img src={img1} alt="backdrop" className='w-full fixed top-10 z-0'/> */}
-        <div className="w-full h-screen flex flex-col md:py-0 py-25 md:flex-row px-8 md:px-24 justify-between items-center md:gap-4 mt-10 bg-[#00000089] backdrop-blur-3xl">
+        <div className="w-full gap-20 md:h-screen flex flex-col md:py-0 py-25 md:flex-row px-8 md:px-24 justify-between items-center md:gap-4 mt-10 bg-[#00000089] backdrop-blur-3xl">
             <div className="home-left flex flex-col justify-center border-0 border-zinc-700 w-full text-center md:text-left">
                 <h1 className='text-white neue text-4xl md:text-8xl '>Hey there,</h1>
                 <h1 className='text-white neue text-4xl md:text-8xl text-nowrap'>I'm <span className='text-purple-600 dm-sans'>Yash Jangir</span></h1>
